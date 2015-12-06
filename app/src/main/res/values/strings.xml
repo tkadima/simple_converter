@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Convert ALL the Things</string>
+    <string name="title_activity_length">Length Converter</string>
+    <string name="title_activity_weight">Weight Converter</string>
+    <string name="title_activity_currency">Currency Converter</string>
+    <string name="title_activity_number">Number Systems Converter</string>
+
+    <string name="welcome">Convert ALL the Things!</string>
+    <string name="instructions">Convert All the Things! is a simple tool for making any type of mathematical conversion </string>
+    <string name="length">Length</string>
+    <string name="weight">Weight</string>
+    <string name="currency">Currency</string>
+    <string name="numbers">Numbers</string>
+
+    <string-array name="conversionOptions">
+        <item>@string/length</item>
+        <item>@string/weight</item>
+        <item>@string/currency</item>
+        <item>@string/numbers</item>
+    </string-array>
+
+
+    <string name="convert">Convert</string>
+    <string name="fromValuePrompt">Enter the original value:</string>
+
+    <string name="inches">inches</string>
+    <string name="feet">feet</string>
+    <string name="yards">yards</string>
+    <string name="meters">meters</string>
+    <string name="kilometers">kilometers</string>
+    <string name="cent">centimeters</string>
+    <string name="dec">decimeters</string>
+    <string name="miles">miles</string>
+
+    <string-array name="length_units_array">
+        <item>@string/cent</item>
+        <item>@string/dec</item>
+        <item>@string/feet</item>
+        <item>@string/inches</item>
+        <item>@string/kilometers</item>
+        <item>@string/meters</item>
+        <item>@string/miles</item>
+        <item>@string/yards</item>
+    </string-array>
+
+    <string name="lbs">pounds</string>
+    <string name="ounce">ounces</string>
+    <string name="stone">stone</string>
+    <string name="kilos">kilograms</string>
+    <string name="grams">grams</string>
+
+    <string-array name="weight_units_array">
+        <item>@string/lbs</item>
+        <item>@string/ounce</item>
+        <item>@string/stone</item>
+        <item>@string/kilos</item>
+        <item>@string/grams</item>
+    </string-array>
+
+    <string name="usd">US Dollar</string>
+    <string name="euro">euro</string>
+    <string name="pound">British Pound</string>
+    <string name="yen">yen</string>
+    <string name="aud">Australian Dollar</string>
+    <string name="franc">Swiss franc</string>
+    <string name="cad">Canadian Dollar</string>
+    <string name="hkd">Hong Kong Dollar</string>
+    <string name="krona">krona</string>
+    <string name="bitcoin">bitcoin</string>
+
+    <string-array name="currencies_array">
+        <item>@string/usd</item>
+        <item>@string/euro</item>
+        <item>@string/pound</item>
+        <item>@string/yen</item>
+        <item>@string/aud</item>
+        <item>@string/franc</item>
+        <item>@string/cad</item>
+        <item>@string/hkd</item>
+        <item>@string/krona</item>
+        <item>@string/bitcoin</item>
+    </string-array>
+
+    <string name="binary">binary</string>
+    <string name="decimal">decimal</string>
+    <string name="hexadecimal">hexadecimal</string>
+
+    <string-array name="number_system_array">
+        <item>@string/binary</item>
+        <item>@string/decimal</item>
+        <item>@string/hexadecimal</item>
+    </string-array>
+</resources>

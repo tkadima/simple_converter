@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--main activity dimens -->
+    <dimen name="textBoxSize">100dp</dimen>
+    <dimen name="mainMargin">25dp</dimen>
+    <dimen name="main_header_text">36dp</dimen>
+    <dimen name="title_height">76dp</dimen>
+    <dimen name="grid_columnWidth">50dp</dimen>
+    <dimen name="grid_height">255dp</dimen>
+    <dimen name="main_image_width">200dp</dimen>
+    <dimen name="main_image_height">186dp</dimen>
+
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="buttonTextSize">18sp</dimen>
+</resources>
