@@ -3,13 +3,15 @@
     <!--main activity dimens -->
     <dimen name="textBoxSize">100dp</dimen>
     <dimen name="mainMargin">25dp</dimen>
-    <dimen name="main_header_text">36dp</dimen>
+    <dimen name="main_header_text">48dp</dimen>
     <dimen name="title_height">76dp</dimen>
     <dimen name="grid_columnWidth">50dp</dimen>
     <dimen name="grid_height">255dp</dimen>
     <dimen name="main_image_width">200dp</dimen>
     <dimen name="main_image_height">186dp</dimen>
+    <dimen name="button_width">150dp</dimen>
 
+    <!--text dimes -->
     <dimen name="textSize">16sp</dimen>
-    <dimen name="buttonTextSize">18sp</dimen>
+    <dimen name="buttonTextSize">20sp</dimen>
 </resources>
