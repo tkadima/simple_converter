@@ -1,12 +1,12 @@
 package com.mobiledev.tkadima.simpleconverter.activities;
 
-import java.text.DecimalFormat;
-
 import android.os.Bundle;
 import android.view.View;
 
 import com.mobiledev.tkadima.simpleconverter.R;
 import com.mobiledev.tkadima.simpleconverter.converters.LengthConverter;
+
+import java.text.DecimalFormat;
 
 public class LengthActivity extends ConverterActivity {
     @Override
@@ -46,6 +46,7 @@ public class LengthActivity extends ConverterActivity {
         });
     }
 }
+
 
 
 
