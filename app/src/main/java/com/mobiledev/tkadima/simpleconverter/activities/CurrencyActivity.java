@@ -1,11 +1,12 @@
 package com.mobiledev.tkadima.simpleconverter.activities;
 
-import java.text.DecimalFormat;
-
 import android.os.Bundle;
 import android.view.View;
+
 import com.mobiledev.tkadima.simpleconverter.R;
 import com.mobiledev.tkadima.simpleconverter.converters.CurrencyConverter;
+
+import java.text.DecimalFormat;
 
 /**
  * currency will work differently than the other activities since conversion rates often change
@@ -37,7 +38,7 @@ public class CurrencyActivity extends ConverterActivity {
                     formatted = decimalFormat.format(unformattedDouble);
                     _convertedValue.setText(formatted);
                 } else if (firstCurrency.equals(baseUnit)) {
-                    unformattedDouble = unit1.fromBase(Double.valueOf(_originalValue.getText().toString()));
+                    unformattedDouble = unit2.fromBase(Double.valueOf(_originalValue.getText().toString()));
                     formatted = decimalFormat.format(unformattedDouble);
                     _convertedValue.setText(formatted);
                 } else {
@@ -49,5 +50,3 @@ public class CurrencyActivity extends ConverterActivity {
         });
     }
 }
-//TODO implement formatting method which makes the final result into to the value with the symbol and proper
-//amount of decimal places

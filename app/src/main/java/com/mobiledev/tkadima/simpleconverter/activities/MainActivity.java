@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.mobiledev.tkadima.simpleconverter.R;
 
@@ -46,13 +47,15 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 chooseConversionActivity(CurrencyActivity.class);
+                //Toast.makeText(getApplicationContext(), "Coming soon!", Toast.LENGTH_LONG).show();
             }
         });
 
         _numbersBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                chooseConversionActivity(NumberActivity.class);
+                //chooseConversionActivity(NumberActivity.class);
+                Toast.makeText(getApplicationContext(), "Coming soon!", Toast.LENGTH_LONG).show();
             }
         });
 

@@ -34,7 +34,7 @@ public class LengthActivity extends ConverterActivity {
                     formatted = decimalFormat.format(unformattedDouble);
                     _convertedValue.setText(formatted);
                 } else if (firstUnit.equals(baseUnit)) {
-                    unformattedDouble = unit1.fromBase(Double.valueOf(_originalValue.getText().toString()));
+                    unformattedDouble = unit2.fromBase(unit1.toBase(Double.valueOf(_originalValue.getText().toString())));
                     formatted = decimalFormat.format(unformattedDouble);
                     _convertedValue.setText(formatted);
                 } else {

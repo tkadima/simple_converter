@@ -1,14 +1,18 @@
 package com.mobiledev.tkadima.simpleconverter.activities;
 
 
-import java.text.DecimalFormat;
-
 import android.os.Bundle;
 import android.view.View;
+
 import com.mobiledev.tkadima.simpleconverter.R;
 import com.mobiledev.tkadima.simpleconverter.converters.WeightConverter;
-import com.mobiledev.tkadima.simpleconverter.activities.ConverterActivity;
 
+import java.text.DecimalFormat;
+
+/**
+ * weight uses the same logic as Length Activity
+ * with the WeightConverter class
+ */
 public class WeightActivity extends ConverterActivity
 {
     @Override
@@ -42,7 +46,7 @@ public class WeightActivity extends ConverterActivity
                 }
                 else if (firstUnit.equals(baseUnit))
                 {
-                    unformattedDouble = unit1.fromBase(Double.valueOf(_originalValue.getText().toString()));
+                    unformattedDouble = unit2.fromBase(unit1.toBase(Double.valueOf(_originalValue.getText().toString())));
                     formatted = decimalFormat.format(unformattedDouble);
                     _convertedValue.setText(formatted);
                 }

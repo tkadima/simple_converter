@@ -34,6 +34,10 @@ public class LengthConverter extends Converter {
         } else if (unit.equals("miles")) {
             factor = MILE_TO_METER;
         }
+        else if (unit.equals(baseUnit)){
+            factor = 1;
+        }
+
     }
 
 

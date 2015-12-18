@@ -52,6 +52,9 @@ public class CurrencyConverter extends Converter
         else if (currency.equals("bitcoin")) {
             factor = BITCOIN_TO_USD;
         }
+        else if (currency.equals(baseUnit)) {
+            factor = 1;
+        }
 
     }
 }

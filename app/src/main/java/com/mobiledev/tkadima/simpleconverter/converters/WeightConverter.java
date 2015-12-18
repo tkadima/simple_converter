@@ -18,5 +18,8 @@ public class WeightConverter extends Converter {
         } else if (unit.equals("stone")) {
             factor = STONE_TO_KILOS;
         }
+        else if (unit.equals(baseUnit)) {
+            factor = 1;
+        }
     }
 }
