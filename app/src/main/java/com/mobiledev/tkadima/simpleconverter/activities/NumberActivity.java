@@ -27,11 +27,11 @@ public class NumberActivity extends ConverterActivity {
 
 
                 if (converterTo.getSystem().equals("binary")) {
-                    _convertedValue.setText(converterFrom.convertToBinary(_originalValue.toString()));
+                    _convertedValue.setText(converterFrom.convertToBinary(_originalValue.getText().toString()));
                 } else if (converterTo.getSystem().equals("decimal")) {
-                    _convertedValue.setText(converterFrom.convertToDecimal(_originalValue.toString()));
+                    _convertedValue.setText(converterFrom.convertToDecimal(_originalValue.getText().toString()));
                 } else if (converterTo.getSystem().equals("hexadecimal")) {
-                    _convertedValue.setText(converterFrom.convertToHex(_originalValue.toString()));
+                    _convertedValue.setText(converterFrom.convertToHex(_originalValue.getText().toString()));
                 }
             }
         });
